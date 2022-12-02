@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBuffet", "ConsoleBuf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfInterest", "WpfInterest\WpfInterest.csproj", "{77F87D52-37EA-49D3-B8E3-C015C7339A01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfWinkel", "WpfWinkel\WpfWinkel.csproj", "{5731286C-CB7D-48D1-B568-B3F4DF298D54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{77F87D52-37EA-49D3-B8E3-C015C7339A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77F87D52-37EA-49D3-B8E3-C015C7339A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77F87D52-37EA-49D3-B8E3-C015C7339A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5731286C-CB7D-48D1-B568-B3F4DF298D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5731286C-CB7D-48D1-B568-B3F4DF298D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5731286C-CB7D-48D1-B568-B3F4DF298D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5731286C-CB7D-48D1-B568-B3F4DF298D54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

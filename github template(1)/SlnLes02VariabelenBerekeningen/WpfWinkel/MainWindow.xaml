@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfWinkel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfWinkel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1000">
+    <Grid>
+        <Image x:Name="imgBanaan"  Source="Fotos/Banaan.jpg" HorizontalAlignment="Left" Height="185" Margin="46,29,0,0" VerticalAlignment="Top" Width="278"/>
+        <Image x:Name="imgBoter" Source="Fotos/Boter.jpg" HorizontalAlignment="Left" Height="185" Margin="362,29,0,0" VerticalAlignment="Top" Width="309"/>
+        <Image x:Name="imgEieren" Source="Fotos/Eieren.jpg" HorizontalAlignment="Left" Height="191" Margin="727,29,0,0" VerticalAlignment="Top" Width="211"/>
+        <ListBox x:Name="lstBxVerkocht" HorizontalAlignment="Left" Height="419" Margin="1109,29,0,0" VerticalAlignment="Top" Width="260" d:ItemsSource="{d:SampleData ItemCount=5}" FontSize="24"/>
+        <Button x:Name="btnHerstel" Content="HERSTART WINKEL" HorizontalAlignment="Left" Height="46" Margin="46,587,0,0" VerticalAlignment="Top" Width="228" FontSize="24" FontWeight="Bold" Click="btnHerstel_Click" RenderTransformOrigin="0.522,1.504"/>
+        <Button x:Name="btnBanaan" Content="+" HorizontalAlignment="Left" Height="54" Margin="258,238,0,0" VerticalAlignment="Top" Width="66" FontSize="36" FontWeight="Bold" RenderTransformOrigin="0.545,0.562" Click="btnBanaan_Click"/>
+        <Button x:Name="btnBoter" Content="+" HorizontalAlignment="Left" Height="54" Margin="574,238,0,0" VerticalAlignment="Top" Width="66" FontSize="36" FontWeight="Bold" RenderTransformOrigin="0.545,0.562" Click="btnBoter_Click"/>
+        <TextBlock x:Name="txtPrijsBanaan" HorizontalAlignment="Left" Height="32" Margin="160,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" FontWeight="Bold" FontSize="24" RenderTransformOrigin="0.265,0.863"/>
+        <TextBlock x:Name="txtPrijsBoter" HorizontalAlignment="Left" Height="36" Margin="474,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53" FontWeight="Bold" FontSize="24" RenderTransformOrigin="0.738,0.599"/>
+        <TextBlock x:Name="txtPrijsEieren" HorizontalAlignment="Left" Height="34" Margin="778,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" FontWeight="Bold" FontSize="24" RenderTransformOrigin="0.738,0.599"/>
+        <Label x:Name="lblVoorraadBanaan" Content="" HorizontalAlignment="Left" Height="59" Margin="150,315,0,0" VerticalAlignment="Top" Width="74" FontSize="36" FontWeight="Normal"/>
+        <Label x:Name="lblVoorraadEieren" Content="" HorizontalAlignment="Left" Height="60" Margin="768,315,0,0" VerticalAlignment="Top" Width="74" FontSize="36"/>
+        <Label x:Name="lblVoorraadBoter" Content="" HorizontalAlignment="Left" Height="59" Margin="463,315,0,0" VerticalAlignment="Top" Width="76" FontSize="36"/>
+        <Button x:Name="btnEieren" Content="+" HorizontalAlignment="Left" Height="54" Margin="873,238,0,0" VerticalAlignment="Top" Width="65" FontSize="36" FontWeight="Bold" Click="btnEieren_Click"/>
+        <Label x:Name="lblAfrekenen" Content="" HorizontalAlignment="Left" Height="52" Margin="1109,487,0,0" VerticalAlignment="Top" Width="157" FontSize="24"/>
+        <Button x:Name="btnAfrekenen" Content="AFREKENEN" HorizontalAlignment="Left" Margin="1109,572,0,56" Width="156" FontSize="24" FontWeight="Bold" Click="btnAfrekenen_Click"/>
+    </Grid>
+</Window>
