@@ -11,9 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.seconden", "Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBuffet", "ConsoleBuffet\ConsoleBuffet.csproj", "{852431F6-3279-4B4F-8ED0-7766E53EF050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfInterest", "WpfInterest\WpfInterest.csproj", "{77F87D52-37EA-49D3-B8E3-C015C7339A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfInterest", "WpfInterest\WpfInterest.csproj", "{77F87D52-37EA-49D3-B8E3-C015C7339A01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfWinkel", "WpfWinkel\WpfWinkel.csproj", "{5731286C-CB7D-48D1-B568-B3F4DF298D54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfWinkel", "WpfWinkel\WpfWinkel.csproj", "{5731286C-CB7D-48D1-B568-B3F4DF298D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAlcohol", "WpfAlcohol\WpfAlcohol.csproj", "{4D7BB2C8-28A2-41FC-8AF9-56631869EC4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5731286C-CB7D-48D1-B568-B3F4DF298D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5731286C-CB7D-48D1-B568-B3F4DF298D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5731286C-CB7D-48D1-B568-B3F4DF298D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7BB2C8-28A2-41FC-8AF9-56631869EC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7BB2C8-28A2-41FC-8AF9-56631869EC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7BB2C8-28A2-41FC-8AF9-56631869EC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7BB2C8-28A2-41FC-8AF9-56631869EC4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
