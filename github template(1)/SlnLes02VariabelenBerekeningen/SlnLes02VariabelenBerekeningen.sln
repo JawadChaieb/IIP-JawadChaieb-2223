@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfBmi", "WpfBmi\WpfBmi.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.seconden", "Console.seconden\Console.seconden.csproj", "{219A8A08-7857-4B9A-83B9-079109D48CFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBuffet", "ConsoleBuffet\ConsoleBuffet.csproj", "{852431F6-3279-4B4F-8ED0-7766E53EF050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfInterest", "WpfInterest\WpfInterest.csproj", "{77F87D52-37EA-49D3-B8E3-C015C7339A01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{219A8A08-7857-4B9A-83B9-079109D48CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{219A8A08-7857-4B9A-83B9-079109D48CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{219A8A08-7857-4B9A-83B9-079109D48CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852431F6-3279-4B4F-8ED0-7766E53EF050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852431F6-3279-4B4F-8ED0-7766E53EF050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852431F6-3279-4B4F-8ED0-7766E53EF050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852431F6-3279-4B4F-8ED0-7766E53EF050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F87D52-37EA-49D3-B8E3-C015C7339A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F87D52-37EA-49D3-B8E3-C015C7339A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F87D52-37EA-49D3-B8E3-C015C7339A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F87D52-37EA-49D3-B8E3-C015C7339A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
