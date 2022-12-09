@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Slider x:Name="sldKleur" HorizontalAlignment="Left" Margin="70,128,0,0" Minimum="0" Maximum="100" IsSnapToTickEnabled="True" TickFrequency="1" VerticalAlignment="Top" Width="668" Height="27" ValueChanged="sldKleur_ValueChanged"/>
-        <Label Content="Geselecteerde waarde:" HorizontalAlignment="Left" Height="62" Margin="70,243,0,0" VerticalAlignment="Top" Width="387" FontSize="36"/>
-        <TextBlock x:Name="txtblkWaarde" HorizontalAlignment="Left" Height="62" Margin="462,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="36" TextAlignment="Right"/>
+        <Slider x:Name="sldKleur" HorizontalAlignment="Left" Margin="70,128,0,0" Minimum="0" Maximum="100" IsSnapToTickEnabled="True" TickFrequency="1" VerticalAlignment="Top" Width="668" Height="27" ValueChanged="sldKleur_ValueChanged" />
+        <Label Content="Geselecteerde waarde:" HorizontalAlignment="Left" Height="62" Margin="70,243,0,0" VerticalAlignment="Top" Width="387" FontSize="36" />
+        <TextBlock x:Name="txtblkWaarde" HorizontalAlignment="Left" Height="62" Margin="462,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="36" TextAlignment="Right" />
     </Grid>
 </Window>
