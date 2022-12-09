@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfProgressBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfProgressBar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="26" Margin="26,140,0,0" TextWrapping="Wrap" Text="Voortgang:" VerticalAlignment="Top" Width="108" FontSize="20"/>
+        <Rectangle x:Name="rctTimer" MinWidth="0" MaxWidth="400" HorizontalAlignment="Left" Height="27" Margin="154,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="2"/>
+        <Button x:Name="btnStart" Content="START" HorizontalAlignment="Left" Height="42" Margin="154,240,0,0" VerticalAlignment="Top" Width="158" FontSize="24" FontWeight="Bold" Click="btnStart_Click"/>
+        <Button x:Name="btnHerstel" Content="ANNULEREN" HorizontalAlignment="Left" Height="42" Margin="400,240,0,0" VerticalAlignment="Top" Width="158" FontSize="22" FontWeight="Bold" Click="btnHerstel_Click"/>
+        <Label x:Name="lblPercentage" Content="0 %" HorizontalAlignment="Left" Height="43" Margin="629,140,0,0" VerticalAlignment="Top" Width="103" FontSize="20" RenderTransformOrigin="0.503,1.02"/>
+    </Grid>
+</Window>
