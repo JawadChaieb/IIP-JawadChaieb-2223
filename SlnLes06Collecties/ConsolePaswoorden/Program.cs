@@ -1,4 +1,5 @@
-﻿namespace PaswoordenSorteren
+﻿namespace ConsolePaswoorden
+
 {
     class Program
     {
@@ -23,7 +24,6 @@
                     paswoordOk.Add(paswoorden[i]);
                 }
             }
-
             Console.WriteLine("Niet ok: " + String.Join(", ", paswoordNietOk));
 
             Console.WriteLine("Ok: " + String.Join(", ", paswoordOk));
