@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePaswoorden", "ConsolePaswoorden\ConsolePaswoorden.csproj", "{DC415CB0-77BD-4C53-8534-EE99127F7B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolePaswoorden", "ConsolePaswoorden\ConsolePaswoorden.csproj", "{DC415CB0-77BD-4C53-8534-EE99127F7B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleFibonacci", "ConsoleFibonacci\ConsoleFibonacci.csproj", "{88D1EF3C-DB42-44B7-880F-383518A37EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleScores", "ConsoleScores\ConsoleScores.csproj", "{7BF98152-D9C6-462F-B5F4-8077CE12D1E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLotto", "ConsoleLotto\ConsoleLotto.csproj", "{0A11595B-C2A3-45E9-AD63-E23FBB156159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTodo", "WpfTodo\WpfTodo.csproj", "{BF5AEADE-2C50-40BA-A5E7-B944BC507CC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{DC415CB0-77BD-4C53-8534-EE99127F7B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC415CB0-77BD-4C53-8534-EE99127F7B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC415CB0-77BD-4C53-8534-EE99127F7B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D1EF3C-DB42-44B7-880F-383518A37EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D1EF3C-DB42-44B7-880F-383518A37EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D1EF3C-DB42-44B7-880F-383518A37EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D1EF3C-DB42-44B7-880F-383518A37EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF98152-D9C6-462F-B5F4-8077CE12D1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF98152-D9C6-462F-B5F4-8077CE12D1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF98152-D9C6-462F-B5F4-8077CE12D1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF98152-D9C6-462F-B5F4-8077CE12D1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A11595B-C2A3-45E9-AD63-E23FBB156159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A11595B-C2A3-45E9-AD63-E23FBB156159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A11595B-C2A3-45E9-AD63-E23FBB156159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A11595B-C2A3-45E9-AD63-E23FBB156159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5AEADE-2C50-40BA-A5E7-B944BC507CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5AEADE-2C50-40BA-A5E7-B944BC507CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5AEADE-2C50-40BA-A5E7-B944BC507CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5AEADE-2C50-40BA-A5E7-B944BC507CC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
